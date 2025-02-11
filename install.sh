@@ -76,6 +76,8 @@ sudo dnf install gnome-themes-extra adw-gtk3-theme qt5ct qt6-qtwayland qt5-qtway
 
 sudo dnf install swappy wf-recorder grim tesseract slurp
 
+sudo dnf install appstream-util python3.12 python3.12-devel libsoup3-devel uv
+
 sudo dnf install gobject-introspection-devel gjs-devel pulseaudio-libs-devel
 
 # color-generation
