@@ -18,7 +18,6 @@ wget https://github.com/sentriz/cliphist/releases/download/v0.5.0/v0.5.0-linux-a
 chmod +x cliphist
 sudo cp cliphist /usr/local/bin/cliphist
 sudo dnf install tinyxml tinyxml2
-sudo pip3 install pywal svglib anyascii
 sudo dnf install python3-build python3-pillow python3-setuptools_scm python3-wheel
 sudo dnf install hyprland
 sudo dnf install xrandr xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-hyprland
@@ -83,7 +82,6 @@ sudo dnf install gobject-introspection-devel gjs-devel pulseaudio-libs-devel
 sudo dnf install python3 python3-regex unzip
 sudo dnf install python3-gobject-devel libsoup-devel blueprint-compiler
 sudo dnf install python3-libsass libxdp-devel libxdp libportal
-pip3 install https://github.com/T-Dynamos/materialyoucolor-python/archive/master.zip --break-system-packages
 sudo dnf4 config-manager --add-repo https://download.opensuse.org/repositories/home:sp1rit:notekit/Fedora_Rawhide/home:sp1rit:notekit.repo
 sudo dnf install clatexmath-devel
 sudo dnf install aylurs-gtk-shell 
