@@ -62,17 +62,6 @@ mkdir -p ~/.config/anyrun/plugins # Create the config directory and the plugins 
 cp target/release/*.so ~/.config/anyrun/plugins # Copy all of the built plugins to the correct directory
 cp examples/config.ron ~/.config/anyrun/config.ron # Copy the default config file
 
-cd $t
-git clone https://github.com/EisregenHaha/end4fonts
-cd end4fonts/fonts
-if [[ -d ~/.local/share/fonts/ ]]; then
-  echo "The fonts directory already exists"
-  cp -R * ~/.local/share/fonts
-else
-mkdir ~/.local/share/fonts
-fi
- cp -R * ~/.local/share/fonts
-
 sudo dnf install gnome-themes-extra adw-gtk3-theme qt5ct qt6-qtwayland qt5-qtwayland fontconfig jetbrains-mono-fonts gdouros-symbola-fonts lato-fonts fish foot starship
 
 sudo dnf install swappy wf-recorder grim tesseract slurp
