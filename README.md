@@ -4,5 +4,5 @@ use the script for dependencies, then use the manual install helper on the origi
 
 credits go to 
 
-https://github.com/Kamion008 (fedora version)
-https://github.com/nullptroma (original opensuse script)
+@Kamion008 (fedora version)
+@nullptroma (original opensuse script)
