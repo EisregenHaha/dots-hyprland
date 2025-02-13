@@ -77,3 +77,4 @@ sudo dnf install python3-libsass libxdp-devel libxdp libportal
 sudo dnf4 config-manager --add-repo https://download.opensuse.org/repositories/home:sp1rit:notekit/Fedora_Rawhide/home:sp1rit:notekit.repo
 sudo dnf install clatexmath-devel
 sudo dnf install aylurs-gtk-shell 
+sudo dnf install kvantum kvantum-qt5
